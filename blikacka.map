@@ -1,0 +1,337 @@
+MPLINK 4.45, Linker
+Linker Map File - Created Fri Jan 25 19:54:29 2013
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+             RESET_VECTOR       code   0x000000    program   0x000002
+               INT_VECTOR       code   0x000004    program   0x000024
+                MAIN_PROG       code   0x000016    program   0x000648
+                   .org_0       code   0x0003c4    program   0x000064
+                   .org_7       code   0x0003f6    program   0x000016
+                   .org_1       code   0x000401    program   0x0001c0
+                   .org_2       code   0x0004e1    program   0x00000e
+                   .org_5       code   0x0004e8    program   0x000016
+                   .org_3       code   0x0004f3    program   0x000016
+                   .cinit    romdata   0x0004fe    program   0x000004
+                   .org_4       code   0x000500    program   0x000200
+                   .org_6       code   0x000600    program   0x000200
+                   .org_8       code   0x000700    program   0x00018a
+.config_2007_16F628ATMPO.O       code   0x002007    program   0x000002
+                       EE       code   0x002100    program   0x000024
+           PREMENNE_BANK0      udata   0x000020       data   0x000030
+                  INT_VAR      udata   0x000070       data   0x000002
+               BUFF_BANK1      udata   0x0000a0       data   0x000050
+               BUFF_BANK2      udata   0x000120       data   0x000030
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000000      
+                            0x000004    0x000339      
+                            0x0003c4    0x0007c4      
+                            0x002007    0x002007      
+                            0x002100    0x002111      
+            1867 out of 2182 program addresses used, program memory utilization is 85%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+            Cakaj_na_TMR0   0x000098    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+           Cakaj_na_reset   0x000069    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+       Cakam_na_povolenie   0x00021a    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+      Cakam_na_povolenie2   0x00022d    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+             Cakanie_TMR0   0x000095    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+            Cervena_farba   0x000243    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+         Citaj_z_buffera2   0x000208    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                Delenie_8   0x0002fd    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                INTERRUPT   0x000004    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+         Inicializacia_ok   0x0001ca    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+        Koniec_chyba_0x01   0x0002f0    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+ Koniec_citania_z_buffera   0x000216    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+    Koniec_obsluhy_prijmu   0x0001ca    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                Koniec_rc   0x00031c    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+             Koniec_testu   0x0003f4    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+            Koniec_vyberu   0x0001a1    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+     Koniec_vykreslovania   0x000298    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+ Koniec_zapisu_do_buffera   0x0001ee    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+           Kopirujem_data   0x0001f6    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+           Nahraj_segment   0x0000d1    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+         Nekonecna_slucka   0x000059    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+            Ofset_medzera   0x0003f1    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+Pockaj_na_pustenie_tlacitka   0x00009a    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+              Pohyb_mod_0   0x00017f    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+       Posun_dolava_xkrat   0x00019c    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+              Posuvaj_mod   0x000050    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+   Precitaj_znak_z_EEPROM   0x0002a0    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+Prekopiruj_z_buffra_do_EEPROM   0x0001f2    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+        Prerusenie_EEPROM   0x00031d    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+           Prerusenie_RB0   0x0002c5    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+          Prerusenie_TMR0   0x000322    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+          Prerusenie_TMR1   0x000325    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+             Preskoc_2tab   0x0003ef    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+             Preskoc_3tab   0x0003e5    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+          Preskoc_RB0_INT   0x00000d    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+            Preskoc_chybu   0x0002f1    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+Preskoc_inicializaciu_bajtu   0x0001b8    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+Preskoc_inicializaciu_menu   0x000089    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+  Preskoc_init_nahoda_mod   0x0000b9    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+        Preskoc_iny_vyber   0x0000f0    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+           Preskoc_kal_ok   0x0002d7    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+       Preskoc_kalibraciu   0x0002e7    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+          Preskoc_medzeru   0x0000fd    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+     Preskoc_mod0_medzera   0x00010a    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+Preskoc_mod_6_pre_medzeru   0x000112    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+            Preskoc_mod_9   0x0001a8    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+Preskoc_nahodny_vyber_modu_end   0x0001af    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+Preskoc_nahodny_vyber_modu_init   0x0000f4    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+    Preskoc_nahodu_pre_10   0x0000c8    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+        Preskoc_napravu_1   0x0000c3    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+        Preskoc_napravu_2   0x0000c8    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+Preskoc_pociatocne_nastavenie   0x000055    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+            Preskoc_pohyb   0x0001a1    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+Preskoc_prekopirovanie_buffra_do   0x00006a    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+Preskoc_prepnutie_smeru_4   0x00018b    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+Preskoc_prepnutie_smeru_C   0x000193    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+     Preskoc_priratavanie   0x000145    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+  Preskoc_priznak_medzera   0x000157    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+         Preskoc_prvykrat   0x0000a0    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+     Preskoc_random_farba   0x000178    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+Preskoc_riesenie_0D_znaku   0x00013e    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+Preskoc_riesenie_FF_znaku   0x000128    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+Preskoc_skok_na_dalsi_riadok_0D   0x000137    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+Preskoc_skok_na_dalsi_riadok_FF   0x000121    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+Preskoc_spracovanie_rx_bajtu   0x000071    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+         Preskoc_tlacitko   0x0000af    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+ Preskoc_ukoncenie_prijmu   0x0001c2    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+    Preskoc_vyber_pismena   0x00014a    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+      Preskoc_vykreslenie   0x0000d0    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+    Preskoc_vypocet_kroku   0x00031c    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+    Preskoc_zhasnutie_LED   0x000079    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+      Preskoc_zmenu_farby   0x000161    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+          Preskoc_znak_13   0x0003cf    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+         Preskoc_znak_255   0x0003ca    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+      Prevod_ASCII_offset   0x0003c4    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+     Spracuj_prijaty_bajt   0x0001b0    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                    Start   0x000016    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                 TMR1_end   0x000338    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                 Tabulka1   0x000500    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                 Tabulka2   0x000600    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                 Tabulka3   0x000700    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+              TabulkaText   0x000401    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+       Ukonci_kopirovanie   0x00022a    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+         Vyber_z_tabulky1   0x0004f3    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+         Vyber_z_tabulky2   0x0004e8    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+         Vyber_z_tabulky3   0x0003f6    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+  Vyber_z_tabulky_segment   0x0004e1    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+             Vykresli_LED   0x000231    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+               Zahod_bajt   0x0001ca    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+             Zamiesaj_mod   0x0000b1    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+        Zapis_do_buffera2   0x0001dd    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+          Zapis_do_buffra   0x0001cb    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+     Zapis_znak_do_EEPROM   0x0002a9    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+             Zelena_farba   0x00026e    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+          Zmen_na_cervenu   0x000160    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+      Zmen_na_zelenu_mod1   0x00015e    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+         Zmen_smer_posuvu   0x00018c    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+          _MAIN_PROG_02A4   0x0002ba    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+            adress_offset   0x000032       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                  buf_adr   0x000035       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                 buf_data   0x000036       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                  buffer1   0x0000a0       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                  buffer2   0x000120       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                   cyklus   0x000037       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+               cyklus_int   0x000027       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                 eeadr_wr   0x000024       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                eedata_wr   0x000025       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                maly_krok   0x000028       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                  mod_nah   0x000040       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+               mod_nahoda   0x00003e       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                     mody   0x000038       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+               mody_vyber   0x00003c       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                 mody_zal   0x00003a       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                   offset   0x000033       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                  pis_off   0x000042       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                  pismeno   0x000041       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+               pocet_prij   0x000034       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+               pociatocne   0x00004f       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                pohyb_poz   0x00004a       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+               pohyb_priz   0x000049       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+               pohyb_stav   0x00004b       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                   port_A   0x00004c       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                   port_B   0x00004d       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+              posun_bitov   0x00002f       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+             prijaty_bajt   0x00002c       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                   random   0x00004e       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                  rc_bajt   0x00002d       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                 rc_bajt2   0x00002e       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                    rs232   0x000026       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                seg_posuv   0x000043       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                  segment   0x000044       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+              status_temp   0x000071       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                     stav   0x000020       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                  tab_pom   0x000030       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                  tabulka   0x000031       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                 trv_medz   0x000045       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                 trv_riad   0x000048       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                trvanie_r   0x000047       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+               velky_krok   0x00002a       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                 vykresli   0x000021       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                   w_temp   0x000070       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                zalomenie   0x000046       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                     znak   0x000023       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                INTERRUPT   0x000004    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+          Preskoc_RB0_INT   0x00000d    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                    Start   0x000016    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+              Posuvaj_mod   0x000050    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+Preskoc_pociatocne_nastavenie   0x000055    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+         Nekonecna_slucka   0x000059    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+           Cakaj_na_reset   0x000069    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+Preskoc_prekopirovanie_buffra_do   0x00006a    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+Preskoc_spracovanie_rx_bajtu   0x000071    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+    Preskoc_zhasnutie_LED   0x000079    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+Preskoc_inicializaciu_menu   0x000089    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+             Cakanie_TMR0   0x000095    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+            Cakaj_na_TMR0   0x000098    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+Pockaj_na_pustenie_tlacitka   0x00009a    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+         Preskoc_prvykrat   0x0000a0    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+         Preskoc_tlacitko   0x0000af    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+             Zamiesaj_mod   0x0000b1    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+  Preskoc_init_nahoda_mod   0x0000b9    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+        Preskoc_napravu_1   0x0000c3    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+    Preskoc_nahodu_pre_10   0x0000c8    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+        Preskoc_napravu_2   0x0000c8    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+      Preskoc_vykreslenie   0x0000d0    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+           Nahraj_segment   0x0000d1    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+        Preskoc_iny_vyber   0x0000f0    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+Preskoc_nahodny_vyber_modu_init   0x0000f4    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+          Preskoc_medzeru   0x0000fd    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+     Preskoc_mod0_medzera   0x00010a    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+Preskoc_mod_6_pre_medzeru   0x000112    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+Preskoc_skok_na_dalsi_riadok_FF   0x000121    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+Preskoc_riesenie_FF_znaku   0x000128    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+Preskoc_skok_na_dalsi_riadok_0D   0x000137    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+Preskoc_riesenie_0D_znaku   0x00013e    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+     Preskoc_priratavanie   0x000145    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+    Preskoc_vyber_pismena   0x00014a    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+  Preskoc_priznak_medzera   0x000157    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+      Zmen_na_zelenu_mod1   0x00015e    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+          Zmen_na_cervenu   0x000160    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+      Preskoc_zmenu_farby   0x000161    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+     Preskoc_random_farba   0x000178    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+              Pohyb_mod_0   0x00017f    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+Preskoc_prepnutie_smeru_4   0x00018b    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+         Zmen_smer_posuvu   0x00018c    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+Preskoc_prepnutie_smeru_C   0x000193    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+       Posun_dolava_xkrat   0x00019c    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+            Preskoc_pohyb   0x0001a1    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+            Koniec_vyberu   0x0001a1    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+            Preskoc_mod_9   0x0001a8    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+Preskoc_nahodny_vyber_modu_end   0x0001af    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+     Spracuj_prijaty_bajt   0x0001b0    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+Preskoc_inicializaciu_bajtu   0x0001b8    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+ Preskoc_ukoncenie_prijmu   0x0001c2    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+         Inicializacia_ok   0x0001ca    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+               Zahod_bajt   0x0001ca    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+    Koniec_obsluhy_prijmu   0x0001ca    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+          Zapis_do_buffra   0x0001cb    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+        Zapis_do_buffera2   0x0001dd    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+ Koniec_zapisu_do_buffera   0x0001ee    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+Prekopiruj_z_buffra_do_EEPROM   0x0001f2    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+           Kopirujem_data   0x0001f6    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+         Citaj_z_buffera2   0x000208    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+ Koniec_citania_z_buffera   0x000216    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+       Cakam_na_povolenie   0x00021a    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+       Ukonci_kopirovanie   0x00022a    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+      Cakam_na_povolenie2   0x00022d    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+             Vykresli_LED   0x000231    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+            Cervena_farba   0x000243    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+             Zelena_farba   0x00026e    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+     Koniec_vykreslovania   0x000298    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+   Precitaj_znak_z_EEPROM   0x0002a0    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+     Zapis_znak_do_EEPROM   0x0002a9    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+          _MAIN_PROG_02A4   0x0002ba    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+           Prerusenie_RB0   0x0002c5    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+           Preskoc_kal_ok   0x0002d7    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+       Preskoc_kalibraciu   0x0002e7    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+        Koniec_chyba_0x01   0x0002f0    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+            Preskoc_chybu   0x0002f1    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                Delenie_8   0x0002fd    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                Koniec_rc   0x00031c    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+    Preskoc_vypocet_kroku   0x00031c    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+        Prerusenie_EEPROM   0x00031d    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+          Prerusenie_TMR0   0x000322    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+          Prerusenie_TMR1   0x000325    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                 TMR1_end   0x000338    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+      Prevod_ASCII_offset   0x0003c4    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+         Preskoc_znak_255   0x0003ca    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+          Preskoc_znak_13   0x0003cf    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+             Preskoc_3tab   0x0003e5    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+             Preskoc_2tab   0x0003ef    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+            Ofset_medzera   0x0003f1    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+             Koniec_testu   0x0003f4    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+         Vyber_z_tabulky3   0x0003f6    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+              TabulkaText   0x000401    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+  Vyber_z_tabulky_segment   0x0004e1    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+         Vyber_z_tabulky2   0x0004e8    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+         Vyber_z_tabulky1   0x0004f3    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                 Tabulka1   0x000500    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                 Tabulka2   0x000600    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                 Tabulka3   0x000700    program     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                     stav   0x000020       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                 vykresli   0x000021       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                     znak   0x000023       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                 eeadr_wr   0x000024       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                eedata_wr   0x000025       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                    rs232   0x000026       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+               cyklus_int   0x000027       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                maly_krok   0x000028       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+               velky_krok   0x00002a       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+             prijaty_bajt   0x00002c       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                  rc_bajt   0x00002d       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                 rc_bajt2   0x00002e       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+              posun_bitov   0x00002f       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                  tab_pom   0x000030       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                  tabulka   0x000031       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+            adress_offset   0x000032       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                   offset   0x000033       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+               pocet_prij   0x000034       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                  buf_adr   0x000035       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                 buf_data   0x000036       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                   cyklus   0x000037       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                     mody   0x000038       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                 mody_zal   0x00003a       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+               mody_vyber   0x00003c       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+               mod_nahoda   0x00003e       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                  mod_nah   0x000040       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                  pismeno   0x000041       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                  pis_off   0x000042       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                seg_posuv   0x000043       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                  segment   0x000044       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                 trv_medz   0x000045       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                zalomenie   0x000046       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                trvanie_r   0x000047       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                 trv_riad   0x000048       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+               pohyb_priz   0x000049       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                pohyb_poz   0x00004a       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+               pohyb_stav   0x00004b       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                   port_A   0x00004c       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                   port_B   0x00004d       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                   random   0x00004e       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+               pociatocne   0x00004f       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                   w_temp   0x000070       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+              status_temp   0x000071       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                  buffer1   0x0000a0       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+                  buffer2   0x000120       data     static c:\Projects\PIC projects\blikacka\final_version\normal\16F628ATMPO.ASM
+
+
